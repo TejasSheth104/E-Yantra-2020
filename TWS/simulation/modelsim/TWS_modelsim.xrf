@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, E:/TWS/TWS.v
+source_file = 1, E:/TWS/db/TWS.cbx.xml
+design_name = TWS
+instance = comp, \z~output , z~output, TWS, 1
+instance = comp, \s2~input , s2~input, TWS, 1
+instance = comp, \s1~input , s1~input, TWS, 1
+instance = comp, \z~0 , z~0, TWS, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
